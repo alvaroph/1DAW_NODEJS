@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "marca": "otra moto",
+    "model": "cbr ",
+    "any": 2020
+  },
+  {
+    "id": 2,
+    "marca": "nueva moto, que id tendra?",
+    "model": "gs 500",
+    "any": 2020
+  }
+]
