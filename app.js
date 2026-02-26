@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const fs = require('fs');
-const port = 3000;
+const port = 23000;
 
 // Middleware per gestionar sol·licituds amb cos en format JSON
 app.use(express.json());
