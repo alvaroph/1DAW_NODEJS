@@ -35,6 +35,10 @@ app.get('/motocicletes', (req, res) => {
   res.json(dades);
 });
 
+app.get('/', (req, res) => {
+  res.send('Benvingut a la API de motocicletes');
+});
+
 app.get('/motocicletes/:id', (req, res) => {
   const dades = llegirDades();
   const id = parseInt(req.params.id);
